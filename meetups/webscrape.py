@@ -15,4 +15,4 @@ for link in soup.find_all('a'):
 print(soup_array)
 #df = pd.DataFrame(soup_array)
 #print(df)
-#df.to_csv('test.csv')
+df.to_csv('test.csv')
